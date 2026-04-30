@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-teal-50: #e5f6f7;
+  --color-teal-100: #bfe9ec;
+  --color-teal-200: #8fdbe0;
+  --color-teal-300: #5acbd3;
+  --color-teal-400: #33b5bf;
+  --color-teal-500: #239ba5;
+  --color-teal-600: #1F8D93; /* Requested Turquoise */
+  --color-teal-700: #1a7177;
+  --color-teal-800: #175b60;
+  --color-teal-900: #154c51;
+  --color-teal-950: #0d3034;
+  --font-sans: "Montserrat", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
