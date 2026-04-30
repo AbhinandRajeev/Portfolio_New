@@ -1,16 +1,34 @@
-# React + Vite
+# Abhinand Rajeev - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built with React, Vite, and Tailwind CSS. It features modern animations using Framer Motion and a dynamic, responsive design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Responsive Design**: Looks great on both desktop and mobile devices.
+- **Modern Animations**: Smooth scroll and element transitions powered by Framer Motion.
+- **Projects Showcase**: A dedicated section to display recent projects with descriptions and links.
+- **Contact Form**: An integrated contact form using EmailJS to send messages directly from the website.
+- **Tech Stack**: React 19, Tailwind CSS v4, Vite.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open the provided local URL in your browser to view the application.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (v19)
+- Vite
+- Tailwind CSS (v4)
+- Framer Motion
+- React Router DOM
+- EmailJS
+- React Icons & Lucide React
